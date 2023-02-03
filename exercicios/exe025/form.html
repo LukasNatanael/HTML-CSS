@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="iemail">
+                Email: <input type="email" name="email" id="iemail" placeholder="usuário@gmail.com">
+            </label>
+        </p>
+        <p>
+            <label for="isenha">
+                Senha: <input type="password" name="senha" id="isenha" placeholder="sua senha">
+            </label>
+        </p>
+        <p>
+            <label for="itelefone">
+                Telefone: <input type="tel" name="telefone" id="itelefone" placeholder="(99)999999999">
+            </label>
+        </p>
+        <p>
+            <input type="button" value="ENVIAR">
+            <input type="reset">
+        </p>
+    </form>
+</body>
+</html>

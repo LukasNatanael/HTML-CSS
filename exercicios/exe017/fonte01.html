@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas
+                centímetro (cm), milímetro (mm), polegada (in), pixel (px), ponto (pt), paica (pc)
+
+            Medidadas Relativas
+                em, ex, rem, vw, vh, %
+            
+            Medidas recomendadas
+                px, em
+
+            16px geralmente == 1em
+            */
+            font-size: 16px;
+            font-size: 1em;
+            /* lighter normal bold bolder*/
+        }
+
+        h1 {
+            font-size: 3em;
+            /* shorthand font 
+            - font-style -> font-weight -> font-size -> font-family
+
+            font-family: Arial, sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em Arial;
+            text-decoration: underline;
+        }
+
+        h2 {
+            font: bold 2em Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus amet quo sequi ullam tempore incidunt rem. Deserunt veniam saepe molestiae repellendus. Quam architecto error vitae dignissimos eligendi temporibus, illo natus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit sed quidem voluptatibus? Quisquam, quidem modi id laboriosam perferendis aspernatur molestiae corporis enim sunt saepe ipsa, dolore dolores? Fuga, sunt tempora!</p>
+    <h2>Subtítulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus cumque magni qui voluptates nam magnam eveniet corporis optio earum tempore saepe adipisci non quidem quas sapiente minima incidunt, possimus odit!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam corporis, eveniet voluptatum illum aliquid harum totam laboriosam incidunt. Sit et quaerat fuga quasi doloribus molestias explicabo non odio in illo.</p>
+</body>
+</html>
